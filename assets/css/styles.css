@@ -20,6 +20,7 @@
 }
 
 footer {
+  margin-top: 3cm;
   color: var(--bs-white);
   background: var(--bs-gray-800);
 }
