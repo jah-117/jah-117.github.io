@@ -12,7 +12,7 @@ document.getElementById("contactForm").addEventListener("submit", function(event
     const encodedMessage = encodeURIComponent(message);
 
     // Construct the mailto link
-    const mailtoLink = `mailto:someone@example.com?subject=Contact Form Submission&body=Name: ${encodedName}%0AEmail: ${encodedEmail}%0AMessage: ${encodedMessage}`;
+    const mailtoLink = `mailto:jahfarbinmuhammed117@gmail.com?subject=Contact Form Submission&body=Name: ${encodedName}%0AEmail: ${encodedEmail}%0AMessage: ${encodedMessage}`;
 
     // Open the mailto link to draft an email
     window.location.href = mailtoLink;
