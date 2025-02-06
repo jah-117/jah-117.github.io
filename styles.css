@@ -1,121 +1,82 @@
-/* Google Fonts */
-@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;600&display=swap');
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Jahfar Muhammed - Portfolio</title>
+  <link rel="stylesheet" href="styles.css">
+</head>
+<body>
 
-:root {
-  --primary-color: #007bff;
-  --text-color: #333;
-  --bg-color: #f9f9f9;
-  --dark-bg: #1e1e1e;
-  --dark-text: #f1f1f1;
-}
+  <!-- Navigation Bar -->
+  <header>
+    <nav>
+      <ul>
+        <li><a href="#home">Home</a></li>
+        <li><a href="#about">About</a></li>
+        <li><a href="#experience">Experience</a></li>
+        <li><a href="#projects">Projects</a></li>
+        <li><a href="#contact">Contact</a></li>
+      </ul>
+    </nav>
+  </header>
 
-* {
-  margin: 0;
-  padding: 0;
-  box-sizing: border-box;
-  font-family: 'Poppins', sans-serif;
-}
+  <!-- Home Section -->
+  <section id="home">
+    <img src="https://via.placeholder.com/150" alt="Profile Photo">
+    <h1>Sayyid Jahfar Ibinu Muhammad</h1>
+    <p>B.Tech Information Technology Student | Aspiring Developer</p>
+    <a href="jahfar_muhammed_cv.pdf" class="btn" download>Download Resume</a>
+  </section>
 
-body {
-  background-color: var(--bg-color);
-  color: var(--text-color);
-  transition: all 0.3s ease-in-out;
-}
+  <!-- About Me Section -->
+  <section id="about">
+    <h2>About Me</h2>
+    <p>7th-semester B.Tech IT student with a passion for AI, software development, and problem-solving.</p>
+  </section>
 
-/* Dark Mode Support */
-@media (prefers-color-scheme: dark) {
-  body {
-    background-color: var(--dark-bg);
-    color: var(--dark-text);
-  }
-}
+  <!-- Experience Section -->
+  <section id="experience">
+    <h2>Experience</h2>
+    <div class="experience-item">
+      <h3>Running AI Models Locally</h3>
+      <p>Worked with <strong>DeepSeek</strong> and <strong>LLaMA</strong> models using <strong>Ollama</strong> and <strong>LM Studio</strong> for AI experiments.</p>
+    </div>
+    <div class="experience-item">
+      <h3>AI-Powered Projects</h3>
+      <p>Built a multilingual <strong>Speech-to-Speech Translation System</strong> with AI-driven language processing.</p>
+    </div>
+  </section>
 
-/* Navigation Bar */
-nav {
-  background: var(--primary-color);
-  padding: 15px 0;
-  text-align: center;
-}
+  <!-- Projects Section -->
+  <section id="projects">
+    <h2>Projects</h2>
+    <div class="project">
+      <h3>Lecture Time-Table Scheduler</h3>
+      <img src="https://via.placeholder.com/400x200" alt="Project 1">
+    </div>
+    <div class="project">
+      <h3>Speech-to-Speech Translation System</h3>
+      <img src="https://via.placeholder.com/400x200" alt="Project 2">
+    </div>
+  </section>
 
-nav ul {
-  list-style: none;
-}
+  <!-- Contact Section -->
+  <section id="contact">
+    <h2>Contact Me</h2>
+    <form>
+      <input type="text" placeholder="Your Name" required>
+      <input type="email" placeholder="Your Email" required>
+      <textarea placeholder="Your Message" required></textarea>
+      <button type="submit" class="btn">Send</button>
+    </form>
+  </section>
 
-nav ul li {
-  display: inline;
-  margin: 0 15px;
-}
+  <!-- Footer -->
+  <footer>
+    <p>Declaration: I hereby declare that the information provided is true.</p>
+  </footer>
 
-nav ul li a {
-  text-decoration: none;
-  color: white;
-  font-weight: bold;
-}
-
-/* Sections */
-section {
-  padding: 50px;
-  text-align: center;
-}
-
-h2 {
-  margin-bottom: 20px;
-  font-size: 28px;
-}
-
-p {
-  font-size: 16px;
-  line-height: 1.6;
-}
-
-/* Buttons */
-.btn {
-  display: inline-block;
-  background: var(--primary-color);
-  color: white;
-  padding: 10px 20px;
-  margin-top: 10px;
-  text-decoration: none;
-  border-radius: 5px;
-  transition: 0.3s;
-}
-
-.btn:hover {
-  background: #0056b3;
-}
-
-/* Project Cards */
-.project {
-  background: white;
-  padding: 20px;
-  margin: 20px;
-  border-radius: 8px;
-  box-shadow: 2px 2px 12px rgba(0, 0, 0, 0.1);
-}
-
-.project img {
-  max-width: 100%;
-  border-radius: 5px;
-}
-
-/* Contact Form */
-form input, form textarea {
-  width: 100%;
-  padding: 10px;
-  margin: 10px 0;
-  border: 1px solid #ccc;
-  border-radius: 5px;
-}
-
-form button {
-  width: 100%;
-}
-
-/* Footer */
-footer {
-  background: #222;
-  color: white;
-  text-align: center;
-  padding: 20px 0;
-  margin-top: 30px;
-}
+  <script src="script.js"></script>
+</body>
+</html>
