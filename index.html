@@ -117,11 +117,15 @@
   <!-- Contact Section -->
   <section id="contact">
     <h2>Contact Me</h2>
-    <form action="https://docs.google.com/forms/u/0/d/e/1FAIpQLSfMf8DVKPRjGtY68KHJtdUjt23od0Qfe7Iy0ilTTp2LcZT39w/formResponse" method="POST">
-    <input type="text" name="entry.123456" placeholder="Your Name" required>
-    <input type="email" name="entry.654321" placeholder="Your Email" required>
-    <textarea name="entry.789101" placeholder="Your Message" required></textarea>
-    <button type="submit">Send</button>
+    <form id="contactForm">
+    <input type="text" id="name" placeholder="Your Name" required>
+    <input type="email" id="email" placeholder="Your Email" required>
+    <textarea id="message" placeholder="Your Message" required></textarea>
+    <button type="submit">Submit</button>
+</form>
+
+<script src="form.js"></script>
+
 </form>
 
   </section>
