@@ -3,73 +3,82 @@
 <head>
   <meta charset="UTF-8">
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
-  <title>Jane Doe Portfolio</title>
-  <link rel="stylesheet" href="style.css">
+  <title>Jahfar Muhammed - Portfolio</title>
+  <link rel="stylesheet" href="styles.css">
 </head>
 <body>
-  <header>
-    <div class="profile-picture">
-      <img src="your-image-url.jpg" alt="Jane Doe Profile Picture">
+  <!-- Home Section -->
+  <section id="home">
+    <img src="https://via.placeholder.com/150" alt="Profile Photo">
+    <h1>Sayyid Jahfar Ibinu Muhammad</h1>
+    <p>B.Tech Information Technology Student | Aspiring Developer</p>
+    <a href="jahfar_muhammed_cv.pdf" download>Download Resume</a>
+  </section>
+
+  <!-- About Me Section -->
+  <section id="about">
+    <h2>About Me</h2>
+    <p>I am a 7th-semester B.Tech Information Technology student passionate about artificial intelligence, software development, and problem-solving.</p>
+    <h3>Skills</h3>
+    <ul>
+      <li><strong>Programming Languages:</strong> C, C++, Python, Dart, Java</li>
+      <li><strong>Web Technologies:</strong> HTML, CSS, Bootstrap, JavaScript, jQuery, PHP, MySQL, MongoDB</li>
+      <li><strong>Frameworks & Tools:</strong> Django, Flutter, Firebase, TensorFlow</li>
+    </ul>
+  </section>
+
+  <!-- Experience Section -->
+  <section id="experience">
+    <h2>Experience</h2>
+    <div class="experience-item">
+      <h3>Running AI Models Locally</h3>
+      <p>
+        Successfully set up and ran <strong>DeepSeek</strong> and <strong>LLaMA</strong> models locally using <strong>Ollama</strong> and <strong>LM Studio</strong>.  
+        Experimented with model inference, prompt engineering, and fine-tuning for specific use cases.  
+        Explored applications like text generation, summarization, and question-answering.  
+      </p>
+      <p><strong>Tools Used:</strong> Ollama, LM Studio, Python, Jupyter Notebook.</p>
     </div>
-    <h1>Jane Doe</h1>
-    <p>Flutter Developer</p>
-    <nav>
-      <ul>
-        <li><a href="#about">About</a></li>
-        <li><a href="#projects">Projects</a></li>
-        <li><a href="#skills">Skills</a></li>
-        <li><a href="#contact">Contact</a></li>
-      </ul>
-    </nav>
-  </header>
-  <main>
-    <section id="about">
-      <h2>About</h2>
-      <p>Details about Jane Doe, including her education, experience, and achievements.</p>
-      <ul>
-        <li>
-          <a href="https://www.example.com/linkedin" target="_blank">
-            <img src="linkedin.svg" alt="LinkedIn Icon">
-          </a>
-          <a href="https://www.example.com/github" target="_blank">
-            <img src="github.svg" alt="GitHub Icon">
-          </a>
-          <a href="https://www.example.com/stackoverflow" target="_blank">
-            <img src="stackoverflow.svg" alt="StackOverflow Icon">
-          </a>
-        </li>
-      </ul>
-    </section>
-    <section id="projects">
-      <h2>Projects</h2>
-      <ul>
-        <li>
-          <h3>Project 1</h3>
-          <p>Description of the project, technologies used, and a link to the project.</p>
-        </li>
-        <li>
-          <h3>Project 2</h3>
-          <p>Description of the project, technologies used, and a link to the project.</p>
-        </li>
-      </ul>
-    </section>
-    <section id="skills">
-      <h2>Skills</h2>
-      <ul>
-        <li>
-          <h3>Skill 1</h3>
-          <p>Description and proficiency level of the skill.</p>
-        </li>
-        <li>
-          <h3>Skill 2</h3>
-          <p>Description and proficiency level of the skill.</p>
-        </li>
-      </ul>
-    </section>
-    <section id="contact">
-      <h2>Contact</h2>
-      <p>Contact information, such as email address and phone number, should be placed here.</p>
-    </section>
-  </main>
+    <div class="experience-item">
+      <h3>AI-Powered Projects</h3>
+      <p>
+        Built a multilingual <strong>Speech-to-Speech Translation System</strong> with features like text extraction from images and hate speech detection.  
+        Integrated AI models for natural language processing (NLP) and speech synthesis.  
+      </p>
+      <p><strong>Technologies:</strong> Python Django, Flutter, Firebase, JSON.</p>
+    </div>
+  </section>
+
+  <!-- Projects Section -->
+  <section id="projects">
+    <h2>Projects</h2>
+    <div class="project">
+      <h3>Lecture Time-Table Scheduler Using Genetic Algorithm</h3>
+      <img src="https://via.placeholder.com/400x200" alt="Project 1">
+      <p>Developed a system that automates scheduling using a Genetic Algorithm, optimizing faculty workload distribution.</p>
+    </div>
+    <div class="project">
+      <h3>Speech-to-Speech Translation System</h3>
+      <img src="https://via.placeholder.com/400x200" alt="Project 2">
+      <p>A multilingual speech translation system with features like text extraction and hate speech detection.</p>
+    </div>
+  </section>
+
+  <!-- Contact Section -->
+  <section id="contact">
+    <h2>Contact Me</h2>
+    <form>
+      <input type="text" placeholder="Your Name" required>
+      <input type="email" placeholder="Your Email" required>
+      <textarea placeholder="Your Message" required></textarea>
+      <button type="submit">Send</button>
+    </form>
+  </section>
+
+  <!-- Footer -->
+  <footer>
+    <p>Declaration: I hereby declare that the information provided is true to the best of my knowledge.</p>
+    <p>Date: 9-Jan-25 | Place: Kuttippuram</p>
+  </footer>
 </body>
-    </html>
+</html>
