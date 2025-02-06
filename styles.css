@@ -101,6 +101,7 @@ h2 {
 }
 
 /* Project Cards */
+/* Project Card Styling */
 .project {
   background: white;
   padding: 20px;
@@ -109,6 +110,16 @@ h2 {
   box-shadow: 2px 2px 12px rgba(0, 0, 0, 0.1);
   max-width: 400px;
   transition: transform 0.3s ease-in-out, box-shadow 0.3s ease-in-out;
+  color: var(--text-color); /* Ensure text is readable */
+}
+
+/* Dark Mode Fix */
+@media (prefers-color-scheme: dark) {
+  .project {
+    background: #2a2a2a; /* Dark background */
+    color: var(--dark-text); /* Light text */
+    box-shadow: 2px 2px 12px rgba(255, 255, 255, 0.1);
+  }
 }
 
 .project img {
