@@ -207,7 +207,8 @@ h2 {
 
 .skill-category:hover {
   transform: scale(1.05);
-  box-shadow: 2px 2px 12px rgba(0, 0, 0, 0.2);
+/*   box-shadow: 2px 2px 12px rgba(0, 0, 0, 0.2); */
+  box-shadow: 4px 4px 20px rgba(0, 0, 0, 0.2);
 }
 
 @media (prefers-color-scheme: dark) {
