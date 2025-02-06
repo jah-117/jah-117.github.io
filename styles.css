@@ -131,6 +131,40 @@ h2 {
   transform: scale(1.05);
   box-shadow: 4px 4px 20px rgba(0, 0, 0, 0.2);
 }
+/* Skills Section */
+#skills {
+  text-align: center;
+  padding: 40px;
+}
+
+.skills-container {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+  gap: 20px;
+}
+
+.skill-category {
+  background: #f4f4f4;
+  padding: 15px;
+  border-radius: 8px;
+  width: 280px;
+  box-shadow: 2px 2px 10px rgba(0, 0, 0, 0.1);
+  transition: transform 0.3s ease-in-out;
+}
+
+.skill-category:hover {
+  transform: scale(1.05);
+  box-shadow: 2px 2px 12px rgba(0, 0, 0, 0.2);
+}
+
+@media (prefers-color-scheme: dark) {
+  .skill-category {
+    background: #2a2a2a;
+    color: #fff;
+  }
+}
+
 
 /* Contact Form */
 form input, form textarea {
