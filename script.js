@@ -16,3 +16,11 @@ document.addEventListener("DOMContentLoaded", function () {
   window.addEventListener("scroll", revealSections);
   revealSections(); // Initial check
 });
+document.getElementById("menu-toggle").addEventListener("click", function() {
+    const sideMenu = document.getElementById("side-menu");
+    if (sideMenu.style.display === "block") {
+        sideMenu.style.display = "none";
+    } else {
+        sideMenu.style.display = "block";
+    }
+});
